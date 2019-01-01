@@ -24,16 +24,22 @@ dog250大神提到了bbr初版的两个问题：bbr在高丢包率下易失速�
 yum -y install wget
 ```
 
-一键脚本(CentOS)：  
+一键脚本(CentOS)： bbr 
 ```bash
 wget "https://github.com/cx9208/bbrplus/raw/master/ok_bbrplus_centos.sh" && chmod +x ok_bbrplus_centos.sh && ./ok_bbrplus_centos.sh
 ```
+克隆 BBR
 ```bash
 wget "https://raw.githubusercontent.com/vsp6688/bbrplus/master/ok_bbrplus_centos.sh" && chmod +x ok_bbrplus_centos.sh && ./ok_bbrplus_centos.sh
 ```
-
+# ssr.sh
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+
+# ssrmu.sh
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
 
 安装后，执行uname -r，显示4.14.89则切换内核成功  
