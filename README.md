@@ -32,8 +32,9 @@ wget "https://github.com/cx9208/bbrplus/raw/master/ok_bbrplus_centos.sh" && chmo
 wget "https://raw.githubusercontent.com/vsp6688/bbrplus/master/ok_bbrplus_centos.sh" && chmod +x ok_bbrplus_centos.sh && ./ok_bbrplus_centos.sh
 ```
 
-
-
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
 
 安装后，执行uname -r，显示4.14.89则切换内核成功  
 执行lsmod | grep bbr，显示有bbrplus则开启成功   
