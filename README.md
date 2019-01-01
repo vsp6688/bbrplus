@@ -20,6 +20,9 @@ dog250大神提到了bbr初版的两个问题：bbr在高丢包率下易失速�
 # 脚本安装方法：  
 由于我只用centos7以及编译内核是一个相当折腾的事，  
 目前只编译了适合CentOS的内核，Debian/Ubuntu有时间的话折腾一个。  
+```bash
+yum -y install wget
+```
 
 一键脚本(CentOS)：  
 ```bash
