@@ -43,7 +43,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/m
 ```
 
 安装后，执行 ```bash uname -r ```，显示4.14.89则切换内核成功  
-执行lsmod | grep bbr，显示有bbrplus则开启成功   
+执行 ```bash lsmod | grep bbr ```，显示有bbrplus则开启成功   
 
 手动安装方法：  
 1.  
