@@ -17,7 +17,7 @@ dog250大神提到了bbr初版的两个问题：bbr在高丢包率下易失速�
 **注意，这是一个实验性的修改，没有人对它的稳定性负责，也不担保它一定能产生正向的效果。  
 所以请酌情使用，at your own risk.**
 
-# 脚本安装方法：  
+脚本安装方法：  
 由于我只用centos7以及编译内核是一个相当折腾的事，  
 目前只编译了适合CentOS的内核，Debian/Ubuntu有时间的话折腾一个。  
 ```bash
@@ -32,12 +32,12 @@ wget "https://github.com/cx9208/bbrplus/raw/master/ok_bbrplus_centos.sh" && chmo
 ```bash
 wget "https://raw.githubusercontent.com/vsp6688/bbrplus/master/ok_bbrplus_centos.sh" && chmod +x ok_bbrplus_centos.sh && ./ok_bbrplus_centos.sh
 ```
-# ssr.sh
+ssr.sh
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
 
-# ssrmu.sh
+ssrmu.sh
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
@@ -45,7 +45,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/vsp6688/doubi/m
 安装后，执行uname -r，显示4.14.89则切换内核成功  
 执行lsmod | grep bbr，显示有bbrplus则开启成功   
 
-# 手动安装方法：  
+手动安装方法：  
 1.  
 卸载本机的锐速（如果有）  
 
